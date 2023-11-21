@@ -20,18 +20,22 @@ BrainTumor Classifier is not intended to replace professional medical advice, di
 <ul style="list-style-type:circle;">
   <li>Java</li>
   <li>Android SDK</li>
+  <li>TensorFlow Lite</li>
   <li>XML(For design)</li>
 </ul>
+
 
 <h2>User Interface</h2>
 <br>
 <div align="center">
-<img src="https://github.com/RayhanMahmud256/SimpleCalc/assets/99743908/e1259e06-4eb3-42f8-a23b-a5c6ea607939" width="300">
+<img src="https://github.com/RayhanMahmud256/BrainTumorClassifier/assets/99743908/f7330596-eee2-4745-ab6d-d1020325cfdb" width="300">
 </div>
 
 <br>
 
+<h2>Results</h2>
+BrainTumor Classifier is a smart app that can help you detect and classify brain tumors like glioma, meningioma, and pituitary based on MRI images. If there is no tumor in the MRI image then it will show a text "No tumor Detected". From the testing, we found a quite good amount of accuracy from this app.
+
 <h2>APK File</h2>
-BrainTumor Classifier is a smart app that can help you detect and classify brain tumors like glioma, meningioma, and pituitary based on MRI images. It is a useful tool for doctors, patients, and researchers who want to learn more about brain tumors and their characteristics. You can try BrainTumor Classifier for free by visiting [this link]. I hope you find it helpful and informative. Thank you for reading!
-If anyone interested about this app. I am giving a link below, where you can get apk file for this app.
+This app can be useful tool for doctors, patients, and researchers who want to learn more about brain tumors and their characteristics. You can try BrainTumor Classifier for free by visiting the link given below. I hope you find it helpful and informative.
 https://1drv.ms/f/s!Aj9BfxaFX7Y5jwszkY_4aQtfKGmD?e=7KgoFP
