@@ -14,8 +14,6 @@ That is why I have created BrainTumor Classifier, a smart app that can detect an
 
 BrainTumor Classifier is easy to use and fast to run. All you need to do is upload an MRI image of the brain and click on the "Classify" button. BrainTumor Classifier will then process the image and display the results in a few seconds.
 
-BrainTumor Classifier is not intended to replace professional medical advice, diagnosis, or treatment. It is only meant to provide a preliminary screening and guidance for brain tumor detection. You should always consult your doctor before making any health-related decisions.
-
 <h2>Technology Used</h2>
 <ul style="list-style-type:circle;">
   <li>Java</li>
@@ -23,6 +21,12 @@ BrainTumor Classifier is not intended to replace professional medical advice, di
   <li>TensorFlow Lite</li>
   <li>XML(For design)</li>
 </ul>
+
+<h2>Deep Learning Model</h2>
+Before creating this app, my team work on a deep learning model. Which can detect the brain tumor from MRI images. For this, we used pretained model like: VGG-16, ResNet-50 and EfficientNetB0. From our research and testing, we found out EfficientNetB0 gives us highest accuracy 99.83%. So, we used this model for our further research.
+
+<h2>Model Implementation</h2>
+To implement our deep learning model in the app, i used tensorflow lite filesystem. Which is easy to create and easy to implement in the app.
 
 
 <h2>User Interface</h2>
@@ -37,5 +41,9 @@ BrainTumor Classifier is not intended to replace professional medical advice, di
 BrainTumor Classifier is a smart app that can help you detect and classify brain tumors like glioma, meningioma, and pituitary based on MRI images. If there is no tumor in the MRI image then it will show a text "No tumor Detected". From the testing, we found a quite good amount of accuracy from this app.
 
 <h2>APK File</h2>
-This app can be useful tool for doctors, patients, and researchers who want to learn more about brain tumors and their characteristics. You can try BrainTumor Classifier for free by visiting the link given below. I hope you find it helpful and informative.
-https://1drv.ms/f/s!Aj9BfxaFX7Y5jwszkY_4aQtfKGmD?e=7KgoFP
+This app can be useful tool for doctors, patients, and researchers who want to learn more about brain tumors and their characteristics. You can try BrainTumor Classifier for free by visiting the link given below. I hope you will find it helpful and informative.
+https://1drv.ms/f/s!Aj9BfxaFX7Y5jw0_bJWxvuoQ9zjZ?e=f8i1UY
+
+<h2>Warning</h2>
+BrainTumor Classifier is not intended to replace professional medical advice, diagnosis, or treatment. It is only meant to provide a preliminary screening and guidance for brain tumor detection. You should always consult your doctor before making any health-related decisions.
+
